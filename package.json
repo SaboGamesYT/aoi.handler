@@ -1,0 +1,49 @@
+
+{
+  "name": "aoi.handler",
+  "version": "1.1.0",
+  "description": "A powerful tool for aoi.js: discord bot framework to handle commands",
+  "author": "SaboGamesYT",
+  "main": "./index.js",
+  "files": [
+    "index.js",
+    "src",
+    "LICENSE"
+  ],
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "keywords": [
+    "aoijs",
+    "aoi",
+    "aoi.js",
+    "handler",
+    "aoihandler",
+    "aoi.handler",
+    "loader",
+    "console",
+    "discord",
+    "discordbot",
+    "akarui",
+    "commands",
+    "functions"
+  ],
+  "dependencies": {
+    "table": "^6.8.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabogamesyt/aoi.handler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sabogamesyt/aoi.handler/issues"
+  },
+  "homepage": "https://github.com/sabogamesyt/aoi.handler#readme"
+}

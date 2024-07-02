@@ -1,4 +1,4 @@
-# <h1 align="center"><strong>AOI.JS-HANDLER</strong></h1>
+# <h1 align="center"><strong>AOI.HANDLER</strong></h1>
 
 <p align="center">
 <img src="https://media.discordapp.net/attachments/1022533781040672839/1137241711614115910/Untitled96_20230805101633.png" alt="Logo" width="150" height="150">
@@ -6,7 +6,7 @@
 
 
 <p>
-  aoi.js-handler is a package built for aoi.js to make it easy for users to load their command, events, custom functions and statuses.
+  aoi.handler is a package built for aoi.js to make it easy for users to load their command, events, custom functions and statuses.
 </p>
 <h2 align="center"><strong>Installation</strong></h2>
 
@@ -18,7 +18,7 @@ npm install aoi.handler
 ```js {3} copy
 // Import necessary modules
 const { AoiClient } = require("aoi.js");
-const { Handler } = require("aoi.js-handler")
+const { Handler } = require("aoi.handler")
 
 // Create a new AoiClient instance
 const client = new AoiClient({
@@ -51,7 +51,7 @@ const handler = new Handler(
 ``` 
 
 # Useful Links
-| <a href="https://github.com/aho-emi/aoi.handler" target="_blank" rel="noopener noreferrer"><p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" alt="GitHub" width="35" height="35" style="border-radius: 50%;"></p>Github - aoi.handler</a> | <a href="https://www.npmjs.com/package/aoi.handler?activeTab=readme" target="_blank" rel="noopener noreferrer"><p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/2560px-Npm-logo.svg.png" alt="npm" width="75" height="35"></p>NPM - aoi.handler</a> | 
+| <a href="https://github.com/sabogamesyt/aoi.handler" target="_blank" rel="noopener noreferrer"><p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" alt="GitHub" width="35" height="35" style="border-radius: 50%;"></p>Github - aoi.handler</a> | <a href="https://www.npmjs.com/package/aoi.handler?activeTab=readme" target="_blank" rel="noopener noreferrer"><p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/2560px-Npm-logo.svg.png" alt="npm" width="75" height="35"></p>NPM - aoi.handler</a> | 
 | ---- | ---- |
 | <a href="https://aoi-handler.vercel.app" target="_blank" rel="noopener noreferrer"><p align="center"><img src="https://media.discordapp.net/attachments/902553397281030208/1137604638766530670/Untitled96_20230805101633.png" alt="docs" width="55" height="55"></p><strong>DOCS - aoi.handler</strong></a> | <a href="https://discord.gg/3vcucB8F5c" target="_blank" rel="noopener noreferrer"><p align="center"><img src="https://www.freepnglogos.com/uploads/discord-logo-png/concours-discord-cartes-voeux-fortnite-france-6.png" alt="support" width="55" height="55"></p><strong>Discord Support</strong></a> |
 

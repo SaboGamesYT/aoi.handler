@@ -42,7 +42,7 @@ const loadCommands = async (client, basePath, folderPath, config, border) => {
   ]
 
   let files;
-  if (fs.lstatSync(dir).isDirectory()) {
+  if (fs.statSync(dir).isDirectory()) {
     files = readDirectoryRecursively(dir)
   } else {
     console.log('\u001b[38;2;255;0;0mFailed to Initialize command handler: Provided path is not a directory\u001b[0m')
@@ -189,7 +189,7 @@ const reloadCommands = async (client, basePath, folderPath, config, border) => {
   ]
 
   let files;
-  if (fs.lstatSync(dir).isDirectory()) {
+  if (fs.statSync(dir).isDirectory()) {
     files = readDirectoryRecursively(dir)
   } else {
     console.log('\u001b[38;2;255;0;0mFailed to Initialize command handler: Provided path is not a directory\u001b[0m')

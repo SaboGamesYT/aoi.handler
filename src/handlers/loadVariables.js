@@ -56,7 +56,7 @@ const loadVariables = async (client, basePath, filePath, config, border) => {
 
 const reloadVariables = async (client, basePath, filePath, config, border) => {
 
-  if (!fs.lstatSync(path.resolve(basePath, filePath)).isFile()) {
+  if (!fs.statSync(path.resolve(basePath, filePath)).isFile()) {
     console.log('\u001b[38;2;255;0;0mFailed to Initialize variable handler: Provided path is not a file\u001b[0m')
     return
   }
